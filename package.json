@@ -1,0 +1,28 @@
+{
+  "name": "@andersaloof/sub-array",
+  "description": "Returns a subset of an array, from index + X items before/after the current index, wrapping around if range exceeds the bounds of the array.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "browser": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "~4.9.1"
+  },
+  "scripts": {
+    "test": "node test"
+  },
+  "author": "Anders S. Øfsdahl <anders@aloof.no> (http://github.com/andersaloof)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/andersaloof/sub-array"
+  },
+  "bugs": {
+    "url": "https://github.com/andersaloof/sub-array/issues"
+  },
+  "keywords": [
+    "array",
+    "sub-array",
+    "range"
+  ]
+}

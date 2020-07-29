@@ -8,7 +8,7 @@ function subArray(items, current, range) {
   return [].concat(
     current - limitedRange < 0 ? items.slice(current - limitedRange) : [], // Append items from end of array
     items.slice(Math.max(0, current - limitedRange), Math.min(items.length, current + limitedRange + 1)),
-    current + limitedRange >= items.length ? items.slice(0, (current + limitedRange) - items.length + 1) : [], // Prepent items from the beginning of the array
+    current + limitedRange >= items.length ? items.slice(0, (current + limitedRange) - items.length + 1) : [] // Prepend items from beginning of array
   );
 }
 

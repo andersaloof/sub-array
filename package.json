@@ -6,7 +6,7 @@
   "browser": "index.js",
   "dependencies": {},
   "devDependencies": {
-    "tape": "~4.9.1"
+    "tape": "^5.0.1"
   },
   "scripts": {
     "test": "node test"

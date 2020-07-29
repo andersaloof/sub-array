@@ -1,7 +1,7 @@
 {
   "name": "@andersaloof/sub-array",
   "description": "Returns a subset of an array, from index + X items before/after the current index, wrapping around if range exceeds the bounds of the array.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "browser": "index.js",
   "dependencies": {},
